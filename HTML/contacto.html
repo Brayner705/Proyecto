@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WikiEducativa</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/IMAGENES/logo.png">
+    <link rel="stylesheet" href="/CSS/main.css"type="text/css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="caja-contenedora">
+            <img src="/IMAGENES/logo.png" alt="WikiEducativa">
+            <h1><a href="/index.html" class="titulo">WikiEducativa</a></h1>
+            <div class="dropdown">
+                <button class="dropdown-btn">Menú</button>
+                <div class="dropdown-content">
+                    <a href="/HTML/datosestudiante.html">Datos del Estudiante</a>
+                    <a href="/HTML/notaslapso.html">Notas de Lapso</a>
+                    <a href="/HTML/reclamos.html">Reclamos</a>
+                </div>
+            </div>
+            <form method="post">
+                <input type="text" name="buscar" placeholder="Buscar..." class="input-buscar">
+            </form>
+            <div class="inicio-sesion">
+                <a href="/HTML/inicio-sesion.html"><button class="inicio-sesion-btn">Iniciar Sesion</button></a>
+            </div>  
+            <div class="Registrate">
+                <a href="/HTML/registrate.html"><button class="registrate-btn">Registrate</button></a>
+            </div>
+            <div class="inicio">
+                <a href="/index.html"><button class="inicio-btn">Inicio</button></a>
+            </div>       
+        </div>
+    </header>
+    
+
+    <div class="caja-contacto">
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+            <label>Mensaje</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            
+            <input type="submit" value="Enviar">
+
+        </form>
+    </div>
+    
+
+   <!--::::Pie de Pagina::::::-->
+   <footer class="pie-pagina">
+    <div class="grupo-1">
+        
+        <div class="box box1">
+            <h2>WikiEducativa</h2>
+            <a href="/HTML/acercade.html">Acerca de</a>
+            <a href="/HTML/creadores.html">Creadores</a>
+            <a href="/HTML/contacto.html">Contacto</a>
+        </div>
+        <div class="box">
+            <figure>
+                <a href="/index.html">
+                    <img src="/IMAGENES/logo.png" alt="Logo.WikiEducativa">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2 class="siguenos">SIGUENOS</h2>
+            <div class="red-social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2022 <b>WikiEducativa</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
+</body>
+</html>
